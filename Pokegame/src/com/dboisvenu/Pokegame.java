@@ -32,26 +32,23 @@ public class Pokegame {
     
     // Within a class, it's fine to use member variables directly.  However , outside of a class,
     // member variables are accessed or updated with getter and setter methods.
-    public Player getPlayer() {return moPlayer;}
-    
+    //public Player getPlayer() {return moPlayer;}
+     
     // Main class to initiate the game
     public static void main(String[] args) {
         
     	// You've already created you're player above with the same name, what's the intent here?
     	// This works because this is considered a local variable to this method, and is never used.
     	// I have commented it out and would remove it out as it currently serves no purpose that I can see.
-    	
     	// Player moPlayer = new Player();
  
-        
         //moPlayer.choosePokeman();
     	
-    	// Set the Player name.  You could also pass the player name in as a parameter/arguement to the main class
+    	// Set the Player name.  You could also pass the player name in as a parameter/argument to the main class
     	// You had a method called chooseName.  Not sure the intent, but you could show some UI to have the user enter
     	// in their name, or prompt them to type in a name.  Since you didn't provide the player class I created my own
     	// and have a setName for this.
-    	//moPlayer.chooseName();
-    	moPlayer.setName("Scotty Boy");
+    	moPlayer.chooseName();
        
         Pokeman[] aPokemanList = new Pokeman[NUMBER_OF_POKEMANS];
 
