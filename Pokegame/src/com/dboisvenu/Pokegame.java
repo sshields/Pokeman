@@ -18,7 +18,7 @@ public class Pokegame {
     //             	immediately no it's type.  For example whenever I create an object, I
     //             	prefix the variable with 'o' for Object.  Typically when I create an int I prefix it by 'n'
 	//              for number.  If I was creating a member variable, then I'd prefix it with 'm' for member.
-	//              Finally, if I was crateing a member variable for a class that was of type int I would
+	//              Finally, if I was creating a member variable for a class that was of type int I would
 	//              prefix it with 'mn', for an object 'mo'.  Note the use of camel casing.
 	
 	
